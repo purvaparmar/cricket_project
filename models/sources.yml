@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: CRICKET_DB
+    schema: BRONZE
+    description:
+    tables:
+      - name: MATCH_DATA
+      - name: BATCH_LOG
+    
